@@ -1,0 +1,161 @@
+.transactionItem{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 8px 8px;
+    margin: 8px;
+}
+.transactionWrapper{
+    padding: 16px;
+    width: 60vw;
+}
+
+.transactionContainer{
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.left{
+    p{
+        font-size: 24px;
+        margin: 0;;
+    }
+    margin: 0px 0px;
+    padding: 0px;
+    p:nth-of-type(2) {
+        color: #9B9B9B;
+      }
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.price{
+    font-size: 1.8rem;
+    font-weight:bold;
+    color: #F4BB4A;
+}
+
+.deleteBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.editBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4BB4A;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Form styling */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .formGroup label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .formGroup input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formGroup input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Group styling */
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .addButton {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #218838;
+  }
+  
+  .cancelButton {
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cancelButton:hover {
+    background-color: #c82333;
+  }
+
+
+/* Category Label */
+.categoryLabel {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Category Select (dropdown) */
+.categorySelect {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+.categorySelect:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+  

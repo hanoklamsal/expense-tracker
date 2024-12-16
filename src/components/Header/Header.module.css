@@ -1,0 +1,22 @@
+.headerWrapper{
+    padding: 16px;
+}
+
+.headerItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.reacharts-wrapper{
+    height: 200px;
+    width: 200px;
+}
+
+.pieChartContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

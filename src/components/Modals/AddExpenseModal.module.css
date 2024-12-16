@@ -1,0 +1,49 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formRow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .formWrapper input,
+  select {
+    padding: 8px;           /* More padding for better spacing */
+    margin-bottom: 8px;      /* Space between inputs */
+    margin-right: 8px;       /* Space between inputs */
+    width: 100%;             /* Ensure all inputs have the same width */
+    box-sizing: border-box; /* Ensure padding and border don't affect the width */
+    height: 36px;            /* Set a consistent height for all inputs */
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  
+  .selectWrapper {
+    width: 100%; /* Ensure select also spans the entire width of the form */
+  }
+  
+  .formBtn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    width: 100%;  
+  }
+
+  .addExpenseBtn,.cancelBtn{
+    background-color: #ffaa00;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 48px;
+    cursor: pointer;
+  }
+  
+  
+  .addExpenseModalWrapper {
+
+  }
+  
