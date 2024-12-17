@@ -5,9 +5,8 @@ import AddIncomeModal from "../Modals/AddIncomeModal";
 import AddExpenseModal from "../Modals/AddExpenseModal";
 import styles from "./Header.module.css";
 import React, { PureComponent } from "react";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
-import { Legend } from "recharts";
-import { Bar } from "recharts";
+import { PieChart, Pie, Sector, Cell, Bar, Legend } from "recharts";
+
 
 const Header = () => {
   const { walletBalance, totalExpense } = useContext(ExpenseContext);
@@ -131,11 +130,7 @@ const Header = () => {
             </PieChart>
           </div>
           <div>
-            <Legend
-              formatter={(value, entry, index) => (
-                <span className="text-color-class">{value}</span>
-              )}
-            />
+          <Legend iconType='rect' verticalAlign="bottom" />
           </div>
         </div>
       </div>
