@@ -7,7 +7,6 @@ import styles from "./Header.module.css";
 import React, { PureComponent } from "react";
 import { PieChart, Pie, Sector, Cell, Bar, Legend } from "recharts";
 
-
 const Header = () => {
   const { walletBalance, totalExpense } = useContext(ExpenseContext);
 
@@ -94,7 +93,6 @@ const Header = () => {
           onClick={handleOpenExpenseModal}
         />
 
-        {/* Pass the modal visibility state and close handler */}
         <AddIncomeModal
           openIncomeModal={openIncomeModal}
           closeIncomeModal={handleCloseIncomeModal}
@@ -130,7 +128,7 @@ const Header = () => {
             </PieChart>
           </div>
           <div>
-          <Legend iconType='rect' verticalAlign="bottom" />
+            <Legend iconType="rect" verticalAlign="bottom" />
           </div>
         </div>
       </div>

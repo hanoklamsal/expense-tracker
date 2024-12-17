@@ -1,9 +1,9 @@
-.expenseContainer{
-    background-color: white;
-    border-radius: 8px;
+.expenseContainer {
+  background-color: white;
+  border-radius: 8px;
 }
 
-.expenseWrapper{
-    padding: 16px;
-    width: 40vw;
+.expenseWrapper {
+  padding: 16px;
+  width: 40vw;
 }
